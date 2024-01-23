@@ -1,4 +1,4 @@
-# Welcome here!
+# Welcome here!👋
 
 I am currently living and working in Berlin. In my freetime I tech myself Web-Development with an Udemy course. 
 
