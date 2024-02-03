@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'myfont', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+@font-face { font-family: myfont; src: url('../font/myfont-regular.otf'); } 
+@font-face { font-family: myfont; font-weight: bold; src: url('../font/myfont-regular.otf');}
+
+#all-backgrounds {
+  background-color:#FEF5ED;
+
+}
+  
+div.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ++++ header ++++ */
+
+header{
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 25px;
+  text-align: center;
+}
+
+/* ++++ nav bar ++++ */
+
+nav{
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 25px;
+  text-align: center;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #FEF5ED;
+  border-radius: 20px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a{
+  color: #FEF5ED;
+  text-decoration: none;
+}
+
+nav ul li a:hover  , 
+nav ul li a.active {
+    background: #FEF5ED;
+    color: #B3A492;
+}
+ 
+ /* ++++ goals & projects ++++ */
+  
+ .projects-container {  
+    padding: 30px;
+    text-align: center;
+    color: #B3A492;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "projects-logo goals-and-plans goals-and-plans projects-nav-bar"
+      "projects-logo project-1 project-2 projects-nav-bar"
+      "projects-logo project-3 project-4 projects-nav-bar"
+      "projects-logo project-5 project-6 projects-nav-bar";
+    }
+    
+    .project-1 { grid-area: project-1;  background-color:#fff; border-radius: 25px;}
+    .project-1 img { height: 200px; padding: 25px; border-radius: 55% 45% 68% 32% / 30% 30% 70% 70% ;}
+    .project-1 a { color: #B3A492;}
+  
+    .project-2 { grid-area: project-2; background-color:#fff; border-radius: 25px;}
+    .project-2 img {height: 150px; padding: 25px;}
+    .project-2 a { color: #B3A492;}
+    
+    .project-3 { grid-area: project-3; background-color:#fff; border-radius: 25px;}
+    .project-3 img {height: 150px; padding: 25px;}
+    .project-3 a { color: #B3A492;}
+    
+    .project-4 { grid-area: project-4; background-color:#fff; border-radius: 25px;}
+    .project-4 img {height: 150px; padding: 25px;}
+    .project-4 a { color: #B3A492;}
+    
+    .project-5 { grid-area: project-5; background-color:#fff; border-radius: 25px;}
+    .project-5 img {height: 150px; padding: 25px;}
+    .project-5 a { color: #B3A492;}
+    
+    .project-6 { grid-area: project-6; background-color:#fff; border-radius: 25px;}
+    .project-6 img {height: 150px; padding: 25px;}
+    .project-6 a { color: #B3A492;}
+    
+    .goals-and-plans { grid-area: goals-and-plans; padding-bottom: 50px;}
+    
+    .projects-logo { grid-area: projects-logo; }
+    
+    .projects-nav-bar { grid-area: projects-nav-bar; }
+  
+  .goals h2 {
+    color: #B3A492;
+    font-size: 40px;
+  }
+  
+  .goals p {
+    font-size: 20px;
+    color: #B3A492;
+  }
+
+  footer{
+    background-color: #ADC2A9;
+    color: #FEF5ED;
+    margin-top: auto;
+    padding: 25px;
+    text-align: center;
+  } 
+
+/* General styles for all screen sizes */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'myfont', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url('../font/myfont-regular.otf');
+}
+
+@font-face {
+  font-family: myfont;
+  font-weight: bold;
+  src: url('../font/myfont-regular.otf');
+}
+
+#all-backgrounds {
+  background-color: #FEF5ED;
+}
+
+div.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Header styles */
+header {
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 25px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #FEF5ED;
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #FEF5ED;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #FEF5ED;
+  color: #B3A492;
+}
+
+/* Responsive styles for mobile view */
+@media screen and (max-width: 768px) {
+  /* Hide logo and nav bar on mobile view */
+  .projects-logo,
+  nav {
+    display: none;
+  }
+
+  /* Adjust grid layout for mobile view */
+  .projects-container {
+    display: block;
+    text-align: left;
+  }
+
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4,
+  .project-5,
+  .project-6 {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto; /* Adjust this height as needed */
+    padding: 15px; /* Adjust this padding as needed */
+    box-sizing: border-box; /* Include padding and border in total width and height */
+  }
+
+  .project-1 img,
+  .project-2 img,
+  .project-3 img,
+  .project-4 img,
+  .project-5 img,
+  .project-6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Add border-radius for image */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .project-1 p,
+  .project-2 p,
+  .project-3 p,
+  .project-4 p,
+  .project-5 p,
+  .project-6 p {
+    margin-top: 10px; /* Add margin to separate paragraph from image */
+    text-align: center;
+  }
+  
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+}
