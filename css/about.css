@@ -1,0 +1,285 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'myfont', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: myfont; src: url('../font/myfont-regular.otf'); } 
+@font-face { font-family: myfont; font-weight: bold; src: url('../font/myfont-regular.otf');}
+
+  
+#all-backgrounds {
+  background-color: #FEF5ED;
+
+}
+
+/* ++++ header ++++ */
+
+  
+header{
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 25px;
+  text-align: center;
+}
+
+/* ++++ nav bar ++++ */
+
+nav{
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 25px;
+  text-align: center;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #FEF5ED;
+  border-radius: 20px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a{
+  color: #FEF5ED;
+  text-decoration: none;
+}
+
+nav ul li a:hover  , 
+nav ul li a.active {
+    background: #FEF5ED;
+    color: #B3A492;
+}
+
+/* about page grid layout */
+
+.about-container {  
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo pic-1 text-1 sidescroller"
+      "logo text-2 pic-2 sidescroller"
+      "logo pic-3 text-3 sidescroller";
+  }
+  
+  .logo { grid-area: logo; }
+  
+  .sidescroller { grid-area: sidescroller; }
+  
+  .pic-1 { grid-area: pic-1; }
+  
+  .text-1 { grid-area: text-1; }
+  
+  .text-2 { grid-area: text-2; }
+  
+  .pic-2 { grid-area: pic-2; }
+  
+  .pic-3 { grid-area: pic-3; }
+  .pic-3 img { height: 300px; padding: 30px; }
+  
+  .text-3 { grid-area: text-3; }
+  
+  
+  /* +++++++ intro style ++++++++ */
+  
+  .pic-1 {
+    text-align: center;
+  }
+
+  .pic-1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 25%;
+    margin-top: 100px;
+  }
+  
+  .intro-text {
+    font-size: 20px;
+    color: #B3A492;
+    margin-top: 100px;
+  }
+  
+  .intro h2 {
+    color: #B3A492;
+    font-size: 30px;
+  }
+  
+  /* +++ 12-things-about-me +++ */
+  
+  .twelve-things {
+    align-self: center;
+  }
+  
+  .twelve-things h2{
+    color: #B3A492;
+    font-size: 30px;
+  }
+  
+  .twelve-things ol li {
+    font-size: 20px;
+    color: #B3A492;
+  }
+
+  .couple {
+    width: 230px;
+    margin-left: 50px;
+  }
+
+  .frits {
+    width: 130px;
+    margin-left: 110px;
+  }
+  
+  /* ++++ hobbys ++++ */
+  div.text-3{
+    justify-content: center;
+  }
+  
+  .hobbys {
+    padding: 0;
+    margin-top: 60px;
+  }
+  
+  .hobbys h2 {
+    color: #B3A492;
+    font-size: 30px;
+  }
+
+  .pic-3 {
+    text-align: center;
+  }
+
+  .pic-3 img {
+    margin-top: 30px;
+  }
+  /* +++ nested list +++ */ 
+
+  ul {
+    font-size: 20px;
+    color: #B3A492;
+    padding-left: 20px; /* Adjust the padding as needed */
+  }
+  
+  ul ul {
+    margin-left: 20px; /* Adjust the margin to move the nested list to the right */
+  }
+  
+  li {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+  }
+
+
+  footer{
+    background-color: #ADC2A9;
+    color: #FEF5ED;
+    margin-top: auto;
+    padding: 25px;
+    text-align: center;
+  }
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 767px) {
+  .about-container {
+    padding: 15px;
+    display: block;
+  }
+
+  .intro h2,
+  .hobbys h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .logo,
+  .pic-1,
+  .text-1,
+  .sidescroller,
+  .pic-2,
+  .text-2,
+  .pic-3,
+  .text-3 {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .pic-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 0;
+  }
+
+  .twelve-things h2 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
+
+  ol, ul {
+    margin-left: 25px;
+  }
+
+  .twelve-things,
+  .intro {
+    padding-left: 30px;
+  }
+
+  .hobbys ul {
+    padding-left: 25px;
+  }
+
+  .hobbys h2 {
+    padding-left: 25px;
+    padding-bottom: 10px;
+  }
+
+  .pic-2,
+  .pic-3 {
+    display: none;
+  }
+
+  footer {
+    padding: 15px;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+}
+
+

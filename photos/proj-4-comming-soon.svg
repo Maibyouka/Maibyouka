@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150mm"
+   height="50mm"
+   viewBox="0 0 150 50"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="proj-4-comming-soon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.74029882"
+     inkscape:cx="397.13693"
+     inkscape:cy="237.06643"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <color-profile
+       name="Epson-IJ-Printer-07"
+       xlink:href="../../../Windows/system32/spool/drivers/color/Epson%20IJ%20Printer%2007.icc"
+       id="color-profile1" />
+    <color-profile
+       name="Agfa-:-Swop-Standard"
+       xlink:href="../../../Windows/system32/spool/drivers/color/RSWOP.icm"
+       id="color-profile2" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene 2"
+     style="mix-blend-mode:color-burn" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1;mix-blend-mode:lighten">
+    <text
+       xml:space="preserve"
+       style="font-size:14.1111px;line-height:0;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';fill:#867d72;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-opacity:0"
+       x="40.386276"
+       y="17.512632"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#867d72;fill-opacity:1;stroke-width:0.265"
+         x="40.386276"
+         y="17.512632">project 4 </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#867d72;fill-opacity:1;stroke-width:0.265"
+         x="40.386276"
+         y="17.512632"
+         id="tspan4" /><tspan
+         sodipodi:role="line"
+         style="fill:#867d72;fill-opacity:1;stroke-width:0.265"
+         x="40.386276"
+         y="17.512632"
+         id="tspan3" /><tspan
+         sodipodi:role="line"
+         style="fill:#867d72;fill-opacity:1;stroke-width:0.265"
+         x="40.386276"
+         y="17.512632"
+         id="tspan2" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.1111px;line-height:0;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';fill:#867d72;fill-opacity:1;stroke:#ffffff;stroke-width:0.264999;stroke-opacity:0"
+       x="20.72924"
+       y="35.382664"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="fill:#867d72;fill-opacity:1;stroke-width:0.265"
+         x="20.72924"
+         y="35.382664">comming soon</tspan></text>
+  </g>
+</svg>
