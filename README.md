@@ -6,7 +6,7 @@
 In my freetime I teach myself Web-Development with an Udemy course.
 
     🌍  I'm based in Berlin
-    🖥️  Portfolio is still in progress .. 
+    🖥️  Portfolio is still in progress .. view it <a href="maibyouka.bplaced.net/">here<a/>
     🧠  I'm improving my skills with JavaScript right now
     🤝  I'm open to collaborating on interesting projects
     ⚡  Fun Fact: I speak German, English, Korean on a A2 level and Japanese on an N5 level. 
