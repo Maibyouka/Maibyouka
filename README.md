@@ -3,7 +3,7 @@
     <img src="https://media.tenor.com/BoXmKLgSMOYAAAAi/flowers-pixel-art.gif">
 </p>
 <p align="center; display: inline-block; text-align: left;">I am currently living and working in Berlin.<br>
-In my freetime I teach myself Web-Development with an Udemy course.
+In my freetime I learn Web-Development with an Udemy course.
 
     🌍  I'm based in Berlin
     🖥️  Portfolio is still in progress ..
